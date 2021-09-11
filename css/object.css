@@ -1,0 +1,124 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+#navtopinner{
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+header{
+    width: 100%;
+    background-color: white;
+}
+
+#navtoputill{
+    display: flex;
+    width: 1280px;
+}
+
+#logo a{
+    color: black;
+    text-decoration: none;
+} 
+
+#toputillul {
+    margin-left: auto;
+}
+
+#toputillul ul{
+    list-style: none;
+    margin-top: 0;
+}
+
+#toputillul ul li{
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 14px;
+    border-right: 1px solid #f7f7f7;
+}
+
+#toputillul a{
+    color: #262626;
+    text-decoration: none;
+}
+
+#topserch {
+    float: right;
+    position: relative;
+    top: -26px;
+    left: -15px;
+}
+
+#nav{
+    background-color: white;
+    width: 1280px;
+
+}
+
+
+#nav #navul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    background-color: #fff;
+
+}
+
+.submenua {
+    color: #333;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px;
+}
+
+
+#nav ul li a{
+    text-decoration: none;
+}
+
+#navul a{
+    display: block;
+}
+
+.navli{
+    position: relative;
+}
+
+.navli ul li a{
+    display: block;
+    padding: 15px;
+    font-size: 12px;
+    color: #888;
+}
+
+#navli a{
+    display: block;
+}
+
+.navsubul{
+    display: none;
+    position: absolute;
+    list-style: none;
+    width: 160px;
+    padding: 0px;
+    left: -39px;
+    border: 1px solid #ededed;    
+    background-color: white;
+
+}
+
+.navsubul li{
+    border-bottom: 1px dotted #eee;
+}
+
+#exhibition :hover {
+    color: #acacac; 
+}
+
+#navul li:hover .navsubul{
+    display: block;
+}
