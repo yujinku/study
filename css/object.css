@@ -2,6 +2,15 @@ body{
     background-color: white;
     margin: 0;
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 #navtopinner{
     width: 85%;
     margin: 0 auto;
@@ -73,6 +82,7 @@ header{
     border-top: 1px solid #ededed;
     border-bottom: 1px solid #ededed;
     background-color: #fff;
+    margin-bottom: 0;
 
 }
 
@@ -131,9 +141,75 @@ header{
     display: block;
 }
 
+/* ---------------------------------- swiper ----------------------------------*/
 
+.mySwiper {
+    width: 85%;
+    background-color: #fff;
+}
 
-/* ----------------------------------모바일 환경 ----------------------------------*/
+.myslide {
+    overflow: hidden;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.myslide img {
+    width: 100%;
+}
+
+.myslide h3 {
+    color: #000;
+    font-size: 15px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.myslide p {
+    margin: 0;
+    padding-top: 10px;
+}
+
+.swiperInfo1 {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 45px;
+}
+
+.swiperInfo2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-bottom: 40px;
+}
+
+/* ---------------------------------- objcet Story ----------------------------------*/
+
+.objectStory {
+    width: 100%;
+    height: 400px;
+    background-color: #ebebeb;
+}
+
+.objectStory ul {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.objectStory li {
+    width: 330px;
+    height: 349px;
+    background-color: tomato;
+}
+
+.objectStory li img {
+    width: 100%;
+}
+  
+/* ---------------------------------- 모바일 환경 ----------------------------------*/
 
 @media screen and (max-width: 812px) {
     
