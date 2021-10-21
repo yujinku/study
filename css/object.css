@@ -126,6 +126,7 @@ header{
     left: -39px;
     border: 1px solid #ededed;    
     background-color: white;
+    z-index: 3;
 
 }
 
@@ -187,15 +188,17 @@ header{
 
 .objectStory {
     width: 100%;
-    height: 600px;
+    height: 450px;
     background-color: #ebebeb;
-    Border: 1px solid #FFF;
+    
  }
 
 .objectStory2 {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+    padding-top: 36px;
+    margin-top: 0;
 }
 
 .objectStory ul {
@@ -220,6 +223,11 @@ header{
     text-decoration: none; color: black;
     margin: 0px 0px 0px 15px;
     line-height: 6px;
+    padding-top: 10px;
+}
+
+.story span {
+    color: #f94724;
 }
 
 .story1 {
@@ -290,14 +298,32 @@ header{
         left: 86%
     }
 
-    #topserch img{
+    #topserch img {
         height: 15px;
     }
 
-    #serchBox{
+    #serchBox {
         position: relative;
         height: 30px;
         display: flex;
         margin-top: 17px;
     }
+
+    .art2 {
+        margin: 0 auto;
+    }
+
+    .objectStory {
+        height: 0;
+
+    }
+
+    .objectStory ul {
+        display: block;
+    }
+
+    .objectStory li {
+        margin: 0 auto;
+    }
 }
+
